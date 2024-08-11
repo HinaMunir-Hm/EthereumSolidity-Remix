@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"count()": {
+					"notice": "by setting public it creates a function for us to fetch the info and we don't have to set the constructor because solidity allows inline variable initilialization**"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_Counter.sol": "Counter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_Counter.sol": {
+			"keccak256": "0xcf4766346b49e0284e06865ff63f435ec6dec006e364bda2fbb2c2d32926a034",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://65f61c122c5174cb4cb91acd6c3ad9c1110f769e1b6b2c33690b59274d3cb5b0",
+				"dweb:/ipfs/QmUgkf22XeoB99ku5vAKyaf76Bbc9d2YaDHumXgiZn9D6e"
+			]
+		}
+	},
+	"version": 1
+}
